@@ -15,7 +15,7 @@ A introductory repository which helps you set up a bot in telegram which sends o
 
 Telegram is a messaging app similar to Whatsapp. You can send and receive messages along with files also. It is FREE to use. You can access the platform via your Android/iOS/Windows phone and also your PC or Mac.
 
-![TELEGRAM_LOGO](/images/t_logo.png)
+<img src="images/t_logo.png" alt="TELEGRAM_LOGO" height="100px" width="100px" />
 
 ### Some Telegram terminologies -
 
@@ -39,7 +39,7 @@ Steps to sign-up for/sign-in to Telegram
 5. Get your account verified and approve any permissions if required.
 6. You will be logged in to Telegram and will be shown a screen similar to the one below. (It's okay if it differs from the screenshot below)
 
-![Tele Screenshot](/images/app_home.png)
+<img src="/images/app_home.png" alt="Tele Screenshot" width="400px" align="center"/>
 
 7. You have successfully installed Telegram and setup your account. In the next lessons, we will be learning more about Channels and Bots.
 
@@ -52,11 +52,11 @@ Steps to create a channel
 * Swipe from the left side to reveal the menu.
 * Click on "New Channel".
 
-![screenshot 1](/images/s1.png)
+<img src="/images/s1.png" alt="Screenshot 1" width="400px" />
 
 * It will ask you for a Name and Description for your channel. Give a suitable name and description. Adding photo is optional.
 
-![screenshot 2](/images/s2.jpeg)
+<img src="/images/s2.jpg" alt="Screenshot 2" width="400px" />
 
 * In the next screen set the channel as Public.
 * On the same screen, it will ask you to enter a permanent link for your channel. You can use lowercase letters and numbers 0-9 to create the channel link.
@@ -64,7 +64,7 @@ Steps to create a channel
 
 * Keep a note of this Channel permanent link name. It will be required later on to send messages to this channel. For example, the channel link name in the screenshot below is "temperature_alert".
 
-![screenshot 3](/images/s3.jpeg)
+<img src="/images/s3.jpg" alt="Screenshot 3" width="400px" />
 
 * You can click on the channel name at the top to view more details about it.
 * Next we will need to create and add a Bot to the channel so that it can post alerts for us in this channel.
@@ -83,11 +83,11 @@ Telegram allows us to create a new bot with the help of a bot called as "BotFath
 
 * On the Home screen of the app, click on the search icon on the top right and type in "botfather".
 
-![screenshot 4](/images/s4.jpeg)
+<img src="/images/s4.png" alt="Screenshot 4" width="400px" />
 
 * In the search results, click on the correct result for "BotFather" as shown below. The correct "BotFather" will have a blue tick mark next to its name. This will take you to a chat window with the "BotFather".
 
-![screenshot 5](/images/s5.png)
+<img src="/images/s5.png" alt="Screenshot 5" width="400px" />
 
 * The chat will have a few items already and will display you a list of commands to get started.
 * Since we need to create a new Bot, go ahead and type in "/newbot" in the window.
@@ -118,7 +118,7 @@ Telegram allows us to create a new bot with the help of a bot called as "BotFath
 
 * This is the API URL: https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=INR
 
-* Replace the variables conf.py by your Bot API KEY and channel id.
+* Assign the variables conf.py values of your Bot API KEY and channel id.
 
 #### Code 
 
